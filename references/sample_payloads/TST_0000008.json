@@ -1,0 +1,164 @@
+{
+  "payload_json": {
+    "personid": "TST_0000008",
+    "affiliation": ["Student"],
+    "email": [
+      { "type": "CAMP", "source": "SIS", "address": "tst.student8@example.edu" }
+    ],
+    "phone": [
+      { "type": "MOBL", "number": "+1 555-0100", "source": "SIS", "countryCode": "1", "isPreferred": "Y" }
+    ],
+    "personBasic": {
+      "names": [
+        {
+          "prefix": null, "source": "SIS", "suffix": null,
+          "lastName": "Sampleson", "nameType": "PRI",
+          "firstName": "Test", "middleName": "Q", "displayName": null
+        }
+      ],
+      "pronouns": [{ "list": "They/Them", "source": "SIS" }],
+      "birthDate": [{ "date": "2004-03-11", "source": "SIS" }]
+    },
+    "studentInfo": {
+      "address": [
+        {
+          "city": "Boston", "type": "MAIL", "line1": "1 Example St",
+          "line2": null, "state": "MA", "country": "USA", "postalCode": "02215",
+          "effectiveDate": "2025-08-01", "stateDescription": "Massachusetts",
+          "countryDescription": "United States"
+        }
+      ],
+      "studentSemester": [
+        {
+          "studentSemesterInfo": {
+            "currentGpa": "3.71",
+            "cumulativeGpa": "3.68",
+            "formOfStudy": "ENRL",
+            "careerNumber": 0,
+            "unitsTermTotal": 16,
+            "unitsCumulative": 96,
+            "academicTerm": {
+              "term": "2262",
+              "termBeginDate": "2026-05-19",
+              "termEndDate": "2026-08-28"
+            },
+            "academicCareer": { "code": "UGRD", "description": "Undergraduate" },
+            "billingCareer": { "code": "UGRD" },
+            "registrationStatus": { "code": "AC", "description": "Active in Program" },
+            "certificationApproved": { "code": "F" },
+            "academicProgramPrimary": "UBUS",
+            "academicLevelDescription": "Junior",
+            "currentClassYear": { "code": "3", "description": "Junior" },
+            "withdrawalStatus": { "code": null, "date": null, "reason": null },
+            "degreeProgram": [
+              {
+                "type": { "code": "STDNT", "description": "Student" },
+                "action": { "code": "MATR", "description": "Matriculation" },
+                "program": { "code": "UBUS", "description": "Business Administration" },
+                "admitTerm": "2192",
+                "academicPlan": [
+                  {
+                    "plan": { "code": "BUSADMBSBA", "description": "Business Admin", "descriptionLong": "Business Administration BSBA" },
+                    "type": { "code": "MAJ", "description": "Major" },
+                    "degree": { "code": "BSBA", "description": "Bachelor of Science in Business Admin" },
+                    "planSequence": 1,
+                    "transcriptDescription": "Business Administration BSBA"
+                  }
+                ],
+                "academicGroup": { "code": "QST", "description": "Questrom School of Business" },
+                "effectiveDate": "2023-09-01",
+                "academicCareer": { "code": "UGRD" },
+                "expectedGradTerm": { "code": "2272", "description": "Spring 2027" },
+                "effectiveSequence": 1,
+                "registrationStatus": { "code": "AC", "description": "Active in Program" },
+                "programCareerNumber": 0,
+                "admitTermDescription": "Fall 2019",
+                "isCurrentAcademicProgram": "Y"
+              },
+              {
+                "type": { "code": "STDNT", "description": "Student" },
+                "action": { "code": "PRGC", "description": "Program Change" },
+                "program": { "code": "UUNI", "description": "Undeclared" },
+                "admitTerm": "2192",
+                "academicPlan": [
+                  {
+                    "plan": { "code": "UNDECLARED", "description": "Undeclared", "descriptionLong": "Undeclared" },
+                    "type": { "code": "MAJ", "description": "Major" },
+                    "planSequence": 1,
+                    "transcriptDescription": "Undeclared"
+                  }
+                ],
+                "academicGroup": { "code": "QST", "description": "Questrom School of Business" },
+                "effectiveDate": "2022-09-01",
+                "academicCareer": { "code": "UGRD" },
+                "effectiveSequence": 1,
+                "registrationStatus": { "code": "AC", "description": "Active in Program" },
+                "programCareerNumber": 0,
+                "isCurrentAcademicProgram": "N"
+              },
+              {
+                "type": { "code": "STDNT", "description": "Student" },
+                "action": { "code": "MATR", "description": "Matriculation" },
+                "program": { "code": "UCAS", "description": "College of Arts & Sciences" },
+                "admitTerm": "2192",
+                "academicPlan": [
+                  {
+                    "plan": { "code": "ECONBA", "description": "Economics", "descriptionLong": "Economics BA" },
+                    "type": { "code": "MAJ", "description": "Major" },
+                    "degree": { "code": "BA", "description": "Bachelor of Arts" },
+                    "planSequence": 1,
+                    "transcriptDescription": "Economics BA"
+                  }
+                ],
+                "academicGroup": { "code": "CAS", "description": "College of Arts & Sciences" },
+                "effectiveDate": "2023-09-01",
+                "academicCareer": { "code": "UGRD" },
+                "expectedGradTerm": { "code": "2272", "description": "Spring 2027" },
+                "effectiveSequence": 1,
+                "registrationStatus": { "code": "AC", "description": "Active in Program" },
+                "programCareerNumber": 1,
+                "admitTermDescription": "Fall 2019",
+                "isCurrentAcademicProgram": "Y"
+              }
+            ]
+          }
+        }
+      ],
+      "admissionHistory": [
+        {
+          "admitType": { "code": "FRS", "description": "Freshman" },
+          "careerNumber": 0,
+          "academicCareer": "UGRD",
+          "housingInterest": "Y",
+          "applicationNumber": "TSTAPP0008A",
+          "applicationPrograms": [
+            {
+              "action": "MATR", "status": "AC", "admitTerm": "2192",
+              "actionDate": "2019-05-01", "academicGroup": "QST",
+              "effectiveDate": "2019-05-01", "academicProgram": "UBUS",
+              "effectiveSequence": 1, "statusDescription": "Active in Program",
+              "admitTermDescription": "Fall 2019",
+              "academicProgramDescription": "Business Administration"
+            }
+          ]
+        },
+        {
+          "admitType": { "code": "FRS", "description": "Freshman" },
+          "careerNumber": 1,
+          "academicCareer": "UGRD",
+          "applicationNumber": "TSTAPP0008B",
+          "applicationPrograms": [
+            {
+              "action": "MATR", "status": "AC", "admitTerm": "2192",
+              "actionDate": "2019-05-01", "academicGroup": "CAS",
+              "effectiveDate": "2019-05-01", "academicProgram": "UCAS",
+              "effectiveSequence": 1, "statusDescription": "Active in Program",
+              "admitTermDescription": "Fall 2019",
+              "academicProgramDescription": "College of Arts & Sciences"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
